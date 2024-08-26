@@ -1,69 +1,51 @@
-# Noam_Kyram's Projects
+# Welcome to My Developer Portfolio
 
-## 🚀 Welcome to My Developer Portfolio
-
-Hello! I'm **[Your Name]**, a passionate software developer with a strong foundation in **[Your Major or Field of Study]**. Over the past few years, I've worked on a variety of projects that showcase my skills in software development, web technologies, and data analysis. This portfolio is a collection of my best work, demonstrating my ability to turn ideas into functional, scalable, and efficient solutions.
+Hello! I'm [Your Name], a passionate software developer with a strong foundation in [Your Major or Field of Study]. Over the past few years, I've worked on a variety of projects that showcase my skills in software development, web technologies, and data analysis. This portfolio is a collection of my best work, demonstrating my ability to turn ideas into functional, scalable, and efficient solutions.
 
 ## 📁 Project Highlights
 
-### 1. [Smart Home Automation System](https://github.com/yourusername/smart-home-automation)
-- **Description:** This project involves building a smart home automation system using IoT devices to control and monitor household appliances remotely. The system integrates with voice assistants like Alexa and Google Home.
-- **Technologies:** Python, Flask, MQTT, Raspberry Pi, Alexa Skills Kit
-- **Key Features:**
-  - Real-time monitoring and control of home devices
-  - Voice command integration with Alexa
-  - Mobile app for remote control and notifications
-- **Highlights:**
-  - Improved energy efficiency by 20% through automated scheduling
-  - Successfully implemented secure MQTT communication between devices
+### [FPL Points Predictor](https://github.com/noamkyr/Noam_Kyram_FPL_Prediction.git)
+This project is designed to predict Fantasy Premier League (FPL) points for players based on historical data and upcoming fixtures. The model considers various factors such as player performance, opponent strength, and match location to make predictions. It’s a powerful tool for FPL enthusiasts who want to optimize their teams and make data-driven decisions.
 
-### 2. [E-Commerce Website](https://github.com/noamkyr/Noam_Assembly_8086_football_project_2017-.git)
-- **Description:** A full-stack e-commerce web application featuring user authentication, product management, and an integrated payment gateway.
-- **Technologies:** JavaScript, React, Node.js, Express, MongoDB, Stripe API
-- **Key Features:**
-  - Secure user authentication and authorization
-  - Dynamic product catalog with search and filter options
-  - Integrated Stripe for seamless payment processing
-- **Highlights:**
-  - Achieved 99.9% uptime with optimized backend performance
-  - Implemented responsive design, ensuring compatibility across devices
+**Features**
+- **Data Extraction**: Gathers historical player and team performance data from the FPL API and upcoming game data.
+- **Data Processing**: Cleans and preprocesses data, filtering for relevant player statistics and fixtures.
+- **Prediction Model**: Utilizes a custom algorithm to forecast FPL points based on historical data, expected goals (xG), and assists (xA). The model predicts the players' FPL score in the next gameweek.
+- **Visualization**: Provides insightful visualizations of player performance trends and upcoming match difficulties.
 
-### 3. [Machine Learning Model for Predicting House Prices](https://github.com/yourusername/house-price-prediction)
-- **Description:** Developed a machine learning model to predict house prices based on various features like location, size, and amenities. The model uses regression techniques and was trained on a large dataset.
-- **Technologies:** Python, Scikit-learn, Pandas, Matplotlib, Jupyter Notebook
-- **Key Features:**
-  - Data preprocessing and feature engineering
-  - Model training and evaluation with cross-validation
-  - Interactive visualizations of model predictions
-- **Highlights:**
-  - Achieved a 95% accuracy on test data
-  - Deployed the model as a web service for real-time predictions
+**Technologies Used**
+- **Python**
+- **Pandas**: Data processing and manipulation.
+- **NumPy**: Numerical computations and operations.
+- **Matplotlib**: Visualization of data and predictions.
+- **SciKit-Learn**: Machine learning algorithms for predictive modeling.
+- **FPL API**: Source of historical player data.
 
-## 🛠️ Skills & Expertise
-- **Programming Languages:** Python, JavaScript, Java, C++
-- **Web Development:** HTML, CSS, React, Node.js, Django
-- **Database Management:** MySQL, PostgreSQL, MongoDB
-- **DevOps:** Docker, Git, CI/CD (Jenkins, GitHub Actions)
-- **Machine Learning:** TensorFlow, Scikit-learn, Pandas
-- **Other Tools:** Linux, REST APIs, Agile Development, JIRA
+### [E-Commerce Website](#)
+- **Description**: A full-stack e-commerce web application featuring user authentication, product management, and an integrated payment gateway.
+- **Technologies**: JavaScript, React, Node.js, Express, MongoDB, Stripe API.
+- **Key Features**:
+  - Secure user authentication and authorization.
+  - Dynamic product catalog with search and filter options.
+  - Integrated Stripe for seamless payment processing.
+- **Highlights**:
+  - Achieved 99.9% uptime with optimized backend performance.
+  - Implemented responsive design, ensuring compatibility across devices.
 
-## 📚 Education
-**Bachelor of Science in Computer Science** | [Your University] | [Graduation Year]  
-Relevant Coursework: Data Structures, Algorithms, Web Development, Machine Learning, Databases
+### [My Fantasy - Basketball Fantasy Game](https://github.com/noamkyr/Noam_Kyram_client_server_project_2019.git)
+My Fantasy is an Android app designed for basketball enthusiasts, offering a fantasy game based on real N.B.A. league players from specific seasons. This project demonstrates a blend of mobile development, data integration, and backend server management.
 
-## 🏆 Achievements & Certifications
-- **AWS Certified Solutions Architect** | Amazon Web Services
-- **Winner of [Competition Name]** | [Organization Name]
-- **Dean's List** | [Your University], [Year]
+**Key Features**:
+- **Team Building**: The user can select a specific N.B.A. season, draft players by position (Guard, Forward, Center), and create their ideal lineup from the active players of that season.
+- **Real-Time Statistics**: Player stats are fetched from the official N.B.A. site using REST API services.
+- **Competitive Play**: Users can challenge friends to build their own teams and compete based on aggregated player statistics, including points, assists, rebounds, blocks, and steals.
 
-## 📫 Let's Connect
-I'm always open to discussing new opportunities, collaborations, or just geeking out about technology. Feel free to reach out to me through any of the following platforms:
-- **Email:** [your.email@example.com](mailto:your.email@example.com)
-- **LinkedIn:** [Your LinkedIn Profile](https://www.linkedin.com/in/yourprofile)
-- **Portfolio Website:** [Your Portfolio Website](https://yourportfolio.com) (if applicable)
-- **GitHub:** [Your GitHub Profile](https://github.com/yourusername)
+**Technologies & Tools**:
+- **Android Development**: The app is built natively for Android using Java and XML for the user interface.
+- **Backend Server**: A Python-based server, periodically scraping the N.B.A. API for the latest player stats and storing them at the server in JSON format.
+- **Requests**: Used to interact with the N.B.A. REST API, ensuring accurate and up-to-date data.
+- **REST API**: The server communicates with the client app via a custom REST API, managing user authentication, team creation, and real-time score updates.
+- **Data Storage**: User data and team configurations are stored on the server for minimal local storage and user session management.
 
-## 🔗 Links to Additional Resources
-- **Blog:** [Your Tech Blog](https://yourblog.com) (if applicable)
-- **Certifications:** [Link to Certificates](https://yourwebsite.com/certifications)
-- **Publications:** [Link to Publications](https://yourwebsite.com/publications) (if applicable)
+### [Football Game in Assembly 8086](https://github.com/noamkyr/Noam_Assembly_8086_football_project_2017-.git)
+This project is a football game developed using Assembly 8086, showcasing a deep understanding of low-level programming and hardware interaction. The system efficiently handles various operations like updating and displaying the score, and timing functions, all optimized for performance and memory usage.
