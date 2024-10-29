@@ -1,8 +1,8 @@
 # Welcome to My Developer Portfolio
 
-Hello! I'm [Your Name], a passionate software developer with a strong foundation in [Your Major or Field of Study]. Over the past few years, I've worked on a variety of projects that showcase my skills in software development, web technologies, and data analysis. This portfolio is a collection of my best work, demonstrating my ability to turn ideas into functional, scalable, and efficient solutions.
+Hello! I'm Noam Kyram, a passionate software developer with a strong foundation in [Your Major or Field of Study]. Over the past few years, I've worked on a variety of projects that showcase my skills in software development, web technologies, and data analysis. This portfolio is a collection of my best work, demonstrating my ability to turn ideas into functional, scalable, and efficient solutions.
 
-## 📁 Projects Highlights
+## 📁 Project Highlights
 
 ### [FPL Points Predictor](https://github.com/noamkyr/Noam_Kyram_FPL_Prediction.git)
 This project is designed to predict Fantasy Premier League (FPL) points for players based on historical data and upcoming fixtures. The model considers various factors such as player performance, opponent strength, and match location to make predictions. It’s a powerful tool for FPL enthusiasts who want to optimize their teams and make data-driven decisions.
@@ -10,10 +10,10 @@ This project is designed to predict Fantasy Premier League (FPL) points for play
 **Features**
 - **Data Extraction**: Gathers historical player and team performance data from the FPL API and upcoming game data.
 - **Data Processing**: Cleans and preprocesses data, filtering for relevant player statistics and fixtures.
-- **Prediction Model**: Utilizes a custom algorithm to forecast FPL points based on historical data, expected goals (xG), and assists (xA). The model predicts the players' FPL score in the next gameweek.
+- **Prediction Model**: Utilizes a customized algorithm to forecast FPL points based on historical data, expected goals (xG), and assists (xA). The model predicts the players' FPL score in the next gameweek.
 - **Visualization**: Provides insightful visualizations of player performance trends and upcoming match difficulties.
 
-**Technologies Used**
+**Technologies**
 - **Python**
 - **Pandas**: Data processing and manipulation.
 - **NumPy**: Numerical computations and operations.
@@ -21,16 +21,21 @@ This project is designed to predict Fantasy Premier League (FPL) points for play
 - **SciKit-Learn**: Machine learning algorithms for predictive modeling.
 - **FPL API**: Source of historical player data.
 
-### [E-Commerce Website](#)
-- **Description**: A full-stack e-commerce web application featuring user authentication, product management, and an integrated payment gateway.
-- **Technologies**: JavaScript, React, Node.js, Express, MongoDB, Stripe API.
-- **Key Features**:
-  - Secure user authentication and authorization.
-  - Dynamic product catalog with search and filter options.
-  - Integrated Stripe for seamless payment processing.
-- **Highlights**:
-  - Achieved 99.9% uptime with optimized backend performance.
-  - Implemented responsive design, ensuring compatibility across devices.
+### [My Fantasy 2020 - Football Fantasy Game](https://github.com/noamkyr/Fpl_Fantasy_2020_Noam_Kyram.git)
+My Fantasy 2020 is a game where users create fantasy football teams with real Premier League players and compete in leagues based on player statistics. Inspired by the official Premier League Fantasy game, this app offers a unique twist: teams are created once without any further player transfers, requiring strategic thinking based on last season's player stats.
+
+**Key Features**:
+- **Team Building**: Users select players by position (Goalkeeper, Defender, Midfielder, Forward) from a predefined list, creating their teams with a limited budget based on previous season stats.
+- **Real-Time Statistics**: The app pulls live player stats from the Premier League's official website using REST API services, and scores are calculated based on actual match performances.
+- **Competitive Play**: Users can challenge friends to create their own teams and compete based on aggregated player statistics from the current Premier League season.
+
+**Technologies & Tools**:
+- **Android Development**: The app is built natively for Android using Java for logic and XML for the user interface.
+- **Backend Server**: The server is developed in Python, using the FPL API for the latest player statistics at regular intervals. It stores the data in an SQL database to ensure efficient data retrieval and management.
+- **REST API**: The server communicates with the Premier League's REST API to keep updated player statistics and manages user interactions within the app.
+- **Data Management**: The server utilizes an SQL database to store user data, team configurations, and track the status of challenges.
+- **Push Notifications**: The app leverages Firebase to send push notifications to users when a challenge is sent.
+
 
 ### [My Fantasy - Basketball Fantasy Game](https://github.com/noamkyr/Noam_Kyram_client_server_project_2019.git)
 My Fantasy is an Android app designed for basketball enthusiasts, offering a fantasy game based on real N.B.A. league players from specific seasons. This project demonstrates a blend of mobile development, data integration, and backend server management.
