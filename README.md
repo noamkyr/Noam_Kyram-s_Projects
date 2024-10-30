@@ -1,6 +1,6 @@
 # Welcome to My Developer Portfolio
 
-Hello! I'm Noam Kyram, a passionate software developer with a strong foundation in [Your Major or Field of Study]. Over the past few years, I've worked on a variety of projects that showcase my skills in software development, web technologies, and data analysis. This portfolio is a collection of my best work, demonstrating my ability to turn ideas into functional, scalable, and efficient solutions.
+Hello! I'm Noam Kyram, a passionate software developer with a solid foundation in Computer Science. Over the past few years, I've worked on a variety of projects that showcase my skills in software development, web technologies, and data analysis. This portfolio is a collection of my best work, demonstrating my ability to turn ideas into functional, scalable, and efficient solutions.
 
 ## 📁 Project Highlights
 
