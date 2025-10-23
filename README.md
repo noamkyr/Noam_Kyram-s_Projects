@@ -7,6 +7,12 @@ Hello! I'm Noam Kyram, a passionate software developer with a solid foundation i
 ### [Noam's Jersey Shop](https://github.com/noamkyr/noams_jerseys_store)
 This project, Noam's Jersey Shop, was developed as my final full-stack project course. It is an online store for NBA jerseys, built from scratch using Node.js, Express, and client-side in JavaScript, CSS, HTML. The project demonstrates backend design, RESTAPI development, and session authentication and management using persistent cookies. On the frontend, it features dynamic rendering, responsive layouts, and advanced user interactions such as a wishlist system with personal notes, product reviews, and real-time currency conversion (USD and NIS). Additional functionality includes NBA statistics pages powered by external APIs, administrative tools for product management and activity tracking, and automated test scripts that validate all server routes and edge cases.
 
+### [Real-time multi-method e-commerce scraper](https://github.com/noamkyr/Hw3_Ex1_Noam_Kyram.git)
+Allows users to compare product data from Amazon, BestBuy, and Walmart. The system features a javascript frontend connected to a FastAPI backend written in Python. It supports three scraping methods: Basic Scraping using requests and BeautifulSoup for structured HTML extraction, LLM Scraping using LLM models using OpenRouter to intelligently parse complex HTML and extract product details), and Firecrawl API Scraping. The scraper dynamically retrieves and displays product information including title, price, rating, and review count in a simple, responsive table. In addition, it includes a product recommendation feature powered by an LLM that suggests related products based on the user’s recent search history.
+
+This project is demonstrating the integration of web automation, AI reasoning, and modern backend-frontend communication.
+
+
 ### [FPL Points Predictor](https://github.com/noamkyr/Noam_Kyram_FPL_Prediction.git)
 This project is designed to predict Fantasy Premier League (FPL) points for players based on historical data and upcoming fixtures. The model considers various factors such as player performance, opponent strength, and match location to make predictions. It’s a powerful tool for FPL enthusiasts who want to optimize their teams and make data-driven decisions.
 
