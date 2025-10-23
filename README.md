@@ -7,6 +7,10 @@ Hello! I'm Noam Kyram, a passionate software developer with a solid foundation i
 ### [Noam's Jersey Shop](https://github.com/noamkyr/noams_jerseys_store)
 This project, Noam's Jersey Shop, was developed as my final full-stack project course. It is an online store for NBA jerseys, built from scratch using Node.js, Express, and client-side in JavaScript, CSS, HTML. The project demonstrates backend design, RESTAPI development, and session authentication and management using persistent cookies. On the frontend, it features dynamic rendering, responsive layouts, and advanced user interactions such as a wishlist system with personal notes, product reviews, and real-time currency conversion (USD and NIS). Additional functionality includes NBA statistics pages powered by external APIs, administrative tools for product management and activity tracking, and automated test scripts that validate all server routes and edge cases.
 
+### [Fantasy Premier League points predictor using a neural network][(https://github.com/noamkyr/Noam_Kyram_FPL_Prediction.git](https://github.com/noamkyr/Hw4_ex2_neural_netwok_fpl.git)
+It combines data from the official Premier League API with statistical modeling to forecast how many points a player is likely to score in their next match based on the last 3 matches. The system automatically processes historical matches data, trains a neural network that learns patterns from recent performances and opponent strengths. 
+
+There is an interactive Gradio interface allows users to select a player and instantly receive a predicted FPL score.
 
 ### [FPL Points Predictor](https://github.com/noamkyr/Noam_Kyram_FPL_Prediction.git)
 This project is designed to predict Fantasy Premier League (FPL) points for players based on historical data and upcoming fixtures. The model considers various factors such as player performance, opponent strength, and match location to make predictions. It’s a powerful tool for FPL enthusiasts who want to optimize their teams and make data-driven decisions.
