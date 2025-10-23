@@ -14,7 +14,7 @@ This project is demonstrating the integration of web automation, AI reasoning, a
 
 
 ### [Table Tennis Analyzer](https://github.com/noamkyr/Hw2_ex1_Noam_Kyram_Table_Tennis_Analyzer.git)
-A computer-vision system that automatically tracks and analyzes players in a table-tennis match using YOLO pose estimation, OpenCV, and EasyOCR. The program detects players in each frame of a match video, draws bounding boxes and pose joints, filters invalid frames, and records the player coordinates into a CSV file. It generates a heatmap of player movement patterns and a score-progress chart visualizing how each player’s 
+A computer-vision system that automatically tracks and analyzes players in a table-tennis match using YOLO pose estimation, OpenCV, and EasyOCR. The program detects players in each frame of a match video, draws bounding boxes and pose joints, filters invalid frames, and records the player coordinates into a CSV file. It generates a heatmap of player movement patterns and a score-progress chart visualizing how each player’s performance evolves throughout the match. In addition, it calculates and displays real-time player speeds between score changes, showing the average movement intensity both on the video overlay and directly on the score chart.
 
 
 
