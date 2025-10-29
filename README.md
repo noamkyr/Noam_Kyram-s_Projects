@@ -49,6 +49,10 @@ This project is demonstrating the integration of web automation, AI reasoning, a
 ### [Table Tennis Analyzer](https://github.com/noamkyr/Hw2_ex1_Noam_Kyram_Table_Tennis_Analyzer.git)
 A computer-vision system that automatically tracks and analyzes players in a table-tennis match using YOLO pose estimation, OpenCV, and EasyOCR. The program detects players in each frame of a match video, draws bounding boxes and pose joints, filters invalid frames, and records the player coordinates into a CSV file. It generates a heatmap of player movement patterns and a score-progress chart visualizing how each player’s performance evolves throughout the match. In addition, it calculates and displays real-time player speeds between score changes, showing the average movement intensity both on the video overlay and directly on the score chart.
 
+### [Telegram Face Recognition Bot](https://github.com/noamkyr/Hw1_ex1_Noam_Kyram.git)
+
+Built entirely in Python, combining real-time messaging automation with computer vision. Users can upload images to teach the bot new faces, recognize known individuals in new photos, and even find similar celebrities using a pre-encoded database. The system leverages the face_recognition library for encoding and comparison, TSNE and matplotlib for generating visual “familiarity maps” that cluster similar faces.
+
 
 ### [Special Icy Tower](https://github.com/noamkyr/Hw1_ex2_Noam_Kyram.git)
 This project is a special version of the classic "Icy Tower" game, fully developed in JavaScript using HTML Canvas. The game now includes a scoring system that rewards faster climbs, platforms that collapse after being stood on for several seconds, moving platforms (both vertically and horizontally), and two types of animated enemies. I also introduced power-ups such as a star granting temporary invincibility, a spring that launches the player higher, collectible coins, and a unique zero-gravity boost that alters gameplay physics for a limited time. The game features visual upgrades with custom image assets, sound effects, background music, and a leaderboard system that tracks top scores. 
