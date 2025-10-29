@@ -13,25 +13,28 @@ A challenge involves two users:
   The system’s LLM verifies the accuracy of this description.
   4.	Upon a correct description, User B must reimplement the same logic in the target language.
   The result is verified using LLM scoring and unit tests.
-  If both steps pass, both players earn a point+.
+  If both steps pass, both players earn a point.
 
-Key Features
-  •	Dynamic Flowchart Generation:
-    Real-time visualization of the code’s control flow using pyflowchart, Graphviz, and language-specific           converters (for Python, JS, C#). This helps users debug, reason, and explain logic visually.
-  •	Daily “Student C” Challenge:
-    Presents code that looks correct but hides a conceptual flaw. Players must identify the mistake in logic testing deeper comprehension.
-  •	LLM-Based Code Evaluation:
-    Uses a locally hosted model (qwen2.5-coder) through llama_cpp to assess code implementations and textual explanations according to accuracy, clarity, and alignment with the given mission and giving a numeric grade according to different parameters.
-  •	Monaco Editor Integration:
-    Provides an in-browser coding environment with syntax highlighting, autocomplete, and instant flowchart updates — giving users a familiar VS Code-like experience.
-  •	Smartlook Analytics:
-    Tracks real user interactions on both client and server to analyze engagement and usability.
-Technologies Used
-  •	Backend: FastAPI, MongoDB
-  •	LLM Integration: llama_cpp, qwen2.5-coder
-  •	Visualization: pyflowchart, Graphviz, js2flowchart, Microsoft.CodeAnalysis.CSharp
-  •	Frontend: HTML, JS, TailwindCSS, Monaco Editor
-  •	Analytics: Smartlook
+## Key Features
+
+• Dynamic Flowchart Generation:  
+  Real-time visualization of the code’s control flow using pyflowchart, Graphviz, and language-specific converters (for Python, JavaScript, and C#).  
+  This helps users debug, reason, and explain logic visually.
+
+• Daily “Student C” Challenge:  
+  Presents code that looks correct but hides a conceptual flaw.  
+  Players must identify the mistake in logic - testing deeper comprehension.
+
+• LLM-Based Code Evaluation:  
+  Uses a locally hosted model (qwen2.5-coder) through llama_cpp to assess code implementations and textual explanations according to accuracy, clarity, and alignment with the given mission.  
+  It also provides a numeric grade based on different parameters.
+
+• Monaco Editor Integration:  
+  Provides an in-browser coding environment with syntax highlighting, autocomplete, and instant flowchart updates - giving users a familiar VS Code-like experience.
+
+• Smartlook Analytics:  
+  Tracks real user interactions on both client and server to analyze engagement and usability.
+
 
 
 ### [Noam's Jersey Shop](https://github.com/noamkyr/noams_jerseys_store)
