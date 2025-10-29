@@ -15,7 +15,7 @@ A challenge involves two users:
   The result is verified using LLM scoring and unit tests.
   If both steps pass, both players earn a point.
 
-## Key Features
+Key Features
 
 • Dynamic Flowchart Generation:  
   Real-time visualization of the code’s control flow using pyflowchart, Graphviz, and language-specific converters (for Python, JavaScript, and C#).  
