@@ -12,7 +12,7 @@ A challenge involves two users:
   3.	User B first writes a free-text explanation of what the code does.
   The system’s LLM verifies the accuracy of this description.
   4.	Upon a correct description, User B must reimplement the same logic in the target language.
-  The result is verified using LLM scoring and unit tests.
+  The result is verified using LLM scoring.
   If both steps pass, both players earn a point.
 
 **Key Features**
