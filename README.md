@@ -79,7 +79,7 @@ This project is designed to predict Fantasy Premier League (FPL) points for play
 - **SciKit-Learn**: Machine learning algorithms for predictive modeling.
 - **FPL API**: Source of historical player data.
 
-### [My Fantasy 2020 - Football Fantasy Game](https://github.com/noamkyr/Fpl_Fantasy_2020_Noam_Kyram.git)
+### [My Fantasy 2020 - Football Fantasy Game](https://github.com/noamkyr/My_Fantasy_2020.git))
 My Fantasy 2020 is a game where users create fantasy football teams with real Premier League players and compete in leagues based on player statistics. Inspired by the official Premier League Fantasy game, this app offers a unique twist: teams are created once without any further player transfers, requiring strategic thinking based on last season's player stats.
 
 **Key Features**:
