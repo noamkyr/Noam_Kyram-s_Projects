@@ -93,24 +93,24 @@ A cloud-native pet store application deployed on Kubernetes using KIND, demonstr
 A production-ready pet store application demonstrating microservices architecture, containerization best practices, and automated CI/CD workflows with GitHub Actions. :contentReference[oaicite:0]{index=0}
 
 **Highlights**
-- Microservices architecture with dedicated services and databases :contentReference[oaicite:1]{index=1}
-- Full CI/CD automation via GitHub Actions pipeline (build → test → dynamic query execution) :contentReference[oaicite:2]{index=2}
-- Container orchestration using Docker Compose with health checks and dependencies :contentReference[oaicite:3]{index=3}
-- Automated testing integrated with `pytest` and runtime query execution support :contentReference[oaicite:4]{index=4}
+- Microservices architecture with dedicated services and databases 
+- Full CI/CD automation via GitHub Actions pipeline (build → test → dynamic query execution) 
+- Container orchestration using Docker Compose with health checks and dependencies 
+- Automated testing integrated with `pytest` and runtime query execution support 
 
 **CI/CD Pipeline**
-- **Build:** Parallel Docker image builds for all microservices :contentReference[oaicite:5]{index=5}  
-- **Test:** Automated tests through `pytest` validating APIs and service behaviors :contentReference[oaicite:6]{index=6}  
-- **Query Job:** Executes dynamic queries and purchases defined in an external file against live services :contentReference[oaicite:7]{index=7}
+- **Build:** Parallel Docker image builds for all microservices  
+- **Test:** Automated tests through `pytest` validating APIs and service behaviors  
+- **Query Job:** Executes dynamic queries and purchases defined in an external file against live services 
 
 **Services & Architecture**
-- Separate Flask-based microservices for pet inventory and order processing :contentReference[oaicite:8]{index=8}  
-- MongoDB for persistent storage and transaction tracking :contentReference[oaicite:9]{index=9}  
+- Separate Flask-based microservices for pet inventory and order processing  
+- MongoDB for persistent storage and transaction tracking  
 
 **Technology Stack**
-- Python and Flask backend :contentReference[oaicite:11]{index=11}  
-- Docker and Docker Compose for containerization :contentReference[oaicite:12]{index=12}  
-- GitHub Actions for CI/CD :contentReference[oaicite:13]{index=13}  
+- Python and Flask backend  
+- Docker and Docker Compose for containerization  
+- GitHub Actions for CI/CD  
 
 
 
