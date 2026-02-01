@@ -60,6 +60,33 @@ A distributed pet store application built using microservices architecture with 
 - Proxy and Routing: Nginx
 
 
+### [Pet Store Microservices Application](https://github.com/RonIsakov/project_3_Cloud_Computing)
+
+A cloud-native pet store application deployed on Kubernetes using KIND, demonstrating a multi-service architecture with API gateway, persistent storage, and role-based access control.
+
+**Architecture Overview**
+- NGINX API gateway routing requests to backend services
+- Two Pet Store services and one Pet Order service
+- Persistent MongoDB storage with volumes
+- Role-based access control for owner and customer roles
+
+**Services**
+- NGINX API Gateway with path-based routing
+- Pet Store services (Flask REST APIs) with CRUD operations and image support
+- Pet Order service handling purchases and transaction history
+- MongoDB database for persistent data
+
+**Deployment**
+- KIND (Kubernetes in Docker) for local cluster setup
+- Kubernetes manifests for all services and persistent volumes
+- Automated deployment script (`test-submission.sh`)
+
+**Technology Stack**
+- Backend: Python and Flask
+- Database: MongoDB with Kubernetes volumes
+- Orchestration: Kubernetes (KIND)
+- Reverse Proxy: NGINX API Gateway
+
 
 ### [Real-time multi-method e-commerce scraper](https://github.com/noamkyr/Hw3_Ex1_Noam_Kyram.git)
 Allows users to compare product data from Amazon, BestBuy, and Walmart. The system features a javascript frontend connected to a FastAPI backend written in Python. It supports three scraping methods: Basic Scraping using requests and BeautifulSoup for structured HTML extraction, LLM Scraping using LLM models using OpenRouter to intelligently parse complex HTML and extract product details), and Firecrawl API Scraping. The scraper dynamically retrieves and displays product information including title, price, rating, and review count in a simple, responsive table. In addition, it includes a product recommendation feature powered by an LLM that suggests related products based on the user’s recent search history.
