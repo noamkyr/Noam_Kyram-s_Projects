@@ -60,7 +60,7 @@ A distributed pet store application built using microservices architecture with 
 - Proxy and Routing: Nginx
 
 
-### [Pet Store Microservices Application](https://github.com/RonIsakov/project_3_Cloud_Computing)
+### [Pet Store Platform on Kubernetes](https://github.com/RonIsakov/project_3_Cloud_Computing)
 
 A cloud-native pet store application deployed on Kubernetes using KIND, demonstrating a multi-service architecture with API gateway, persistent storage, and role-based access control.
 
