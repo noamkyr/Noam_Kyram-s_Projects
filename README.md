@@ -4,7 +4,7 @@ I'm Noam Kyram, a computer science student at Reichman University. Over the past
 
 ## 📁 Project Highlights
 
-### [Project Overview - Code Something](https://github.com/noamkyr/code_something-_final_project_Noam_Kyram.git)
+### [Code Something](https://github.com/noamkyr/code_something-_final_project_Noam_Kyram.git)
 Code Something is an interactive platform for programming challenges designed to strengthen algorithmic thinking using LLM-powered feedback.
 A challenge involves two users:
   1.	User A implements a function in a chosen source language and verifies it.
