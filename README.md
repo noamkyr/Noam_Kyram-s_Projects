@@ -37,31 +37,28 @@ A challenge involves two users:
 
 
 
-### [Noam's Jersey Shop](https://github.com/noamkyr/noams_jerseys_store)
-This project, Noam's Jersey Shop, was developed as my final full-stack project course. It is an online store for NBA jerseys, built from scratch using Node.js, Express, and client-side in JavaScript, CSS, HTML. The project demonstrates backend design, RESTAPI development, and session authentication and management using persistent cookies. On the frontend, it features dynamic rendering, responsive layouts, and advanced user interactions such as a wishlist system with personal notes, product reviews, and real-time currency conversion (USD and NIS). Additional functionality includes NBA statistics pages powered by external APIs, administrative tools for product management and activity tracking, and automated test scripts that validate all server routes and edge cases.
-
-
-# [Pet Store Microservices Platform](https://github.com/RonIsakov/project_2_Cloud_Computing)
+### [Pet Store Microservices Platform](https://github.com/RonIsakov/project_2_Cloud_Computing)
 
 A distributed pet store application built using microservices architecture with containerization and orchestration tools.
 
-## Project Overview
+**Project Overview**
 - Multi-service system including frontend APIs and order and transaction services
 - Load balanced via Nginx reverse proxy
 - Uses Docker Compose for service setup
 - Data stored in MongoDB
 
-## Features
+**Features**
 - Pet store services with full CRUD operations
 - Pet order service handles purchases and transaction records
 - Load balancing between services
 - Clear, RESTful API endpoints
 
-## Technology Stack
+**Technology Stack**
 - Backend: Python and Flask
 - Database: MongoDB
 - Orchestration: Docker and Docker Compose
 - Proxy and Routing: Nginx
+
 
 
 ### [Real-time multi-method e-commerce scraper](https://github.com/noamkyr/Hw3_Ex1_Noam_Kyram.git)
