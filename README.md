@@ -145,4 +145,4 @@ This project is designed to predict Fantasy Premier League (FPL) points for play
 - **Matplotlib**: Visualization of data and predictions.
 - **SciKit-Learn**: Machine learning algorithms for predictive modeling.
 - **FPL API**: Source of historical player data.
-- 
+  
