@@ -88,6 +88,32 @@ A cloud-native pet store application deployed on Kubernetes using KIND, demonstr
 - Reverse Proxy: NGINX API Gateway
 
 
+### [Pet Store Platform with CI/CD Automation](https://github.com/RonIsakov/project_4_Cloud_Computing)
+
+A production-ready pet store application demonstrating microservices architecture, containerization best practices, and automated CI/CD workflows with GitHub Actions. :contentReference[oaicite:0]{index=0}
+
+**Highlights**
+- Microservices architecture with dedicated services and databases :contentReference[oaicite:1]{index=1}
+- Full CI/CD automation via GitHub Actions pipeline (build → test → dynamic query execution) :contentReference[oaicite:2]{index=2}
+- Container orchestration using Docker Compose with health checks and dependencies :contentReference[oaicite:3]{index=3}
+- Automated testing integrated with `pytest` and runtime query execution support :contentReference[oaicite:4]{index=4}
+
+**CI/CD Pipeline**
+- **Build:** Parallel Docker image builds for all microservices :contentReference[oaicite:5]{index=5}  
+- **Test:** Automated tests through `pytest` validating APIs and service behaviors :contentReference[oaicite:6]{index=6}  
+- **Query Job:** Executes dynamic queries and purchases defined in an external file against live services :contentReference[oaicite:7]{index=7}
+
+**Services & Architecture**
+- Separate Flask-based microservices for pet inventory and order processing :contentReference[oaicite:8]{index=8}  
+- MongoDB for persistent storage and transaction tracking :contentReference[oaicite:9]{index=9}  
+
+**Technology Stack**
+- Python and Flask backend :contentReference[oaicite:11]{index=11}  
+- Docker and Docker Compose for containerization :contentReference[oaicite:12]{index=12}  
+- GitHub Actions for CI/CD :contentReference[oaicite:13]{index=13}  
+
+
+
 ### [Real-time multi-method e-commerce scraper](https://github.com/noamkyr/Hw3_Ex1_Noam_Kyram.git)
 Allows users to compare product data from Amazon, BestBuy, and Walmart. The system features a javascript frontend connected to a FastAPI backend written in Python. It supports three scraping methods: Basic Scraping using requests and BeautifulSoup for structured HTML extraction, LLM Scraping using LLM models using OpenRouter to intelligently parse complex HTML and extract product details), and Firecrawl API Scraping. The scraper dynamically retrieves and displays product information including title, price, rating, and review count in a simple, responsive table. In addition, it includes a product recommendation feature powered by an LLM that suggests related products based on the user’s recent search history.
 
