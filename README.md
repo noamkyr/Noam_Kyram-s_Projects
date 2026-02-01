@@ -90,7 +90,7 @@ A cloud-native pet store application deployed on Kubernetes using KIND, demonstr
 
 ### [Pet Store Platform with CI/CD Automation](https://github.com/RonIsakov/project_4_Cloud_Computing)
 
-A production-ready pet store application demonstrating microservices architecture, containerization best practices, and automated CI/CD workflows with GitHub Actions. :contentReference[oaicite:0]{index=0}
+A production-ready pet store application demonstrating microservices architecture, containerization best practices, and automated CI/CD workflows with GitHub Actions. 
 
 **Highlights**
 - Microservices architecture with dedicated services and databases 
