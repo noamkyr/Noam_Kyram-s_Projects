@@ -121,7 +121,6 @@ This project, Noam's Jersey Shop, was developed as my final full-stack project c
 ### [Real-time multi-method e-commerce scraper](https://github.com/noamkyr/Hw3_Ex1_Noam_Kyram.git)
 Allows users to compare product data from Amazon, BestBuy, and Walmart. The system features a javascript frontend connected to a FastAPI backend written in Python. It supports three scraping methods: Basic Scraping using requests and BeautifulSoup for structured HTML extraction, LLM Scraping using LLM models using OpenRouter to intelligently parse complex HTML and extract product details), and Firecrawl API Scraping. The scraper dynamically retrieves and displays product information including title, price, rating, and review count in a simple, responsive table. In addition, it includes a product recommendation feature powered by an LLM that suggests related products based on the user’s recent search history.
 
-This project is demonstrating the integration of web automation, AI reasoning, and modern backend-frontend communication.
 
 
 ### [Table Tennis Analyzer](https://github.com/noamkyr/Hw2_ex1_Noam_Kyram_Table_Tennis_Analyzer.git)
